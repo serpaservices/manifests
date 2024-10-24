@@ -1,4 +1,5 @@
 {
+  "id": "eb87f5b2-17ae-4c7f-bf47-8c35e71aa161",
   "name": "CopilotoGerente",
   "description": "Copiloto responsável por gerenciar a criação, edição e execução de outros copilotos, bem como suas habilidades.",
   "actions": [
@@ -40,59 +41,4 @@
         {
           "name": "Novas Habilidades",
           "type": "list",
-          "description": "Habilidades que devem ser adicionadas ou removidas."
-        },
-        {
-          "name": "Novas Entidades",
-          "type": "list",
-          "description": "Entidades que devem ser adicionadas ou modificadas."
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CopilotoEditado",
-          "type": "boolean",
-          "description": "Confirmação de que o copiloto foi editado com sucesso."
-        }
-      ]
-    },
-    {
-      "name": "ListarCopilotos",
-      "description": "Exibe uma lista de todos os copilotos já criados no sistema.",
-      "outputs": [
-        {
-          "name": "ListaDeCopilotos",
-          "type": "list",
-          "description": "Lista com os nomes e tipos dos copilotos criados."
-        }
-      ]
-    },
-    {
-      "name": "DeletarCopiloto",
-      "description": "Deleta um copiloto existente.",
-      "inputs": [
-        {
-          "name": "Nome do Copiloto",
-          "type": "string"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CopilotoDeletado",
-          "type": "boolean",
-          "description": "Confirmação de que o copiloto foi deletado."
-        }
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "GerenciarHabilidades",
-      "description": "Permite adicionar ou remover habilidades de copilotos existentes."
-    },
-    {
-      "name": "GerenciarEntidades",
-      "description": "Permite adicionar ou modificar entidades utilizadas pelos copilotos."
-    }
-  ]
-}
+          "description": "Habilidades que devem s
